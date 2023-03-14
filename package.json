@@ -1,0 +1,39 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "16.15.1"
+  },
+  "scripts": {
+    "test": "mocha src/test/server.test.js",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "child_process": "^1.0.2",
+    "cluster": "^0.7.7",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.3",
+    "express-session": "^1.17.3",
+    "minimist": "^1.2.6",
+    "mocha": "^10.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.3.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.6",
+    "nodemon": "^2.0.19",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "twilio": "^3.78.0",
+    "winston": "^3.8.1"
+  }
+}
